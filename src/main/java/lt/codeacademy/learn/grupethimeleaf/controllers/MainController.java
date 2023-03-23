@@ -10,18 +10,26 @@ public class MainController {
 	public String index1() {
 		return "index";
 	}
-	
+
 	@GetMapping("/index2")
 	public String index2() {
 		return "index2";
-}
+	}
+
 	@GetMapping("/index3")
 	public String index3() {
 		return "index3";
 	}
+
 	@GetMapping("/index5")
 	public String index5() {
 		return "index5";
 	}
-	
+
+
+	@GetMapping("/index6")
+	public String index6() {
+		return "index6";
+	}
+
 }
